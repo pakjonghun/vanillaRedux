@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .red{
+        color: red;
+      }
+    </style>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,8 +19,17 @@
     <title>ReduxPr</title>
   </head>
   <body>
-    <button id="plus">+</button>
-    <span id="value"></span>
-    <button id="minus">-</button>
+    <div>
+      <form  id="form">
+        <input  placeholder="todo" id="input"/>
+        <button>입력</button>
+      </form>
+    </div>
+    <div id="todos">
+      <ul id="ul">
+        
+      </ul>
+
+    </div>
   </body>
 </html>
